@@ -1,6 +1,19 @@
 # Support-Vector-Machine
 Linear support vector machine implementation that uses the CVXOPT library for performing optimisation step of finding decision boundary.
 
+## Running the program
+To run the program ensure that the correct libraries are installed: Required libraries include:
+* Scikit Learn
+* pandas
+* numpy
+* cvxopt
+
+Running the program is as simple as calling:`python SVM3.py`.
+It will run using the training and testing data at the path:
+`data/train.csv` and `data/test.csv` respectively.
+
+This program was written with python 2.7 in mind.
+
 ## Output
 Output appears in the following order:
 1) Training Accuracy of Scikit learn library
@@ -13,7 +26,7 @@ Output appears in the following order:
 ## Definitions:
 There are 4 SVM implementations present that all solve the same problem using different formulations of the problem.
 
-**Primal**: The original formulation of the problem.
+**Primal**: The original form of the problem.
 
 **Dual**: The dual form of the original problem.
 
