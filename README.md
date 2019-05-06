@@ -23,7 +23,7 @@ Output appears in the following order:
 5) Table about decision boundary parameters
 6) Dual/Primal parameter comparison table
 
-## Definitions:
+## Definitions
 There are 4 SVM implementations present that all solve the same problem using different formulations of the problem.
 
 **Primal**: The original form of the problem.
